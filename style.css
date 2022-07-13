@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background: #232534;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0
+}
+
+img {
+    width: 100%;
+    box-shadow: 5px 5px 5px black;
+    width: 750px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 481px), (orientation: portrait){
+    h1 {
+        font-size: 40px;
+    }
+}
