@@ -1,4 +1,6 @@
-const imagem = Math.floor(Math.random() * 11);
-const imagemElem = document.createElement("img");
-imagemElem.src = "./Lontrinhas/" + imagem + ".jpg";
-document.body.appendChild(imagemElem);
+let day = new Date();
+const image = (day.getDate() * day.getMonth()) % 21;
+const imgElem = document.createElement("img");
+
+imgElem.src = "./Lontrinhas/" + image + ".jpg";
+document.body.appendChild(imgElem);
